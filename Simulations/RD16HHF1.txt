@@ -1,0 +1,1 @@
+.model RD16HHF1 VDMOS(Rg=987m Rd=0m Rs=111m Vto=3.19 Kp=0.495 Lambda=0 mtriode=0.804 subthres=2.37e-02 Cgdmax=11.6p Cgdmin=1.64p Cgs=44.9p Cjo=73.1p M=0.297 Vj=0.839)
