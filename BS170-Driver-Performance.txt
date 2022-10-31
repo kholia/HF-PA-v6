@@ -1,0 +1,49 @@
+BS170
+-----
+
+DC bias -> 2.2v @ gate.
+
+5v @ drain
+
+28 MHz - good sine wave - terminated in 50 ohms -> 5.4Vpp, 2.4Vp
+
+8v @ drain
+
+28 MHz - good sine wave - terminated in 50 ohms -> 7Vpp, 3Vp
+
+9v @ drain
+
+28 MHz - good sine wave - terminated in 50 ohms -> 7.5Vpp
+
+12v @ drain
+
+28 MHz - good sine wave - terminated in 50 ohms -> 8.8Vpp. 190mW at max even
+WITHOUT LPF.
+
+12.5v @ drain. DC bias 2.35v @ gate. I"dq" -> 7-8mA. 28 MHz - good sine wave -
+terminated in 50 ohms -> 9.6Vpp. Vp -> 4v -> 160 milliwatts WITHOUT LPF but
+decent looking sine wave.
+
+With 3 pole LPF (220 pf + 260 nH + 220 pF). Vp -> 3.76v. Vpp -> 7.5v. Around
+130 mW - decent looking stable single wavish.
+
+28 MHz @ 13.8v -> Vp -> 4v. Vpp -> 8v. With 3 pole LPF. 160 mW. Decent looking
+clean wave.
+
+Test at 7 MHz -> 21 Vpp -> 1.1W -> enough to blow RD16HHF1!
+
+Some other results with shortcut LPF:
+
+14 MHz -> 18 Vpp
+21 MHz -> 12.6 Vpp
+28 MHz -> 8.8 Vpp :)
+
+
+Mitsubishi RD00HVS1
+-------------------
+
+36ma Idq
+
+12.5v drain
+
+28 MHz -> 8.9Vpp. Not a big difference over BS170 at all!

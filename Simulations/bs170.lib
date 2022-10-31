@@ -1,0 +1,32 @@
+*
+*  ZETEX  BS170 Mosfet Spice Subcircuit   Last revision  3/5/00
+*
+.SUBCKT BS170 3 4 5
+*             D G S
+M1 3 2 5 5 N3306M
+RG 4 2 270
+RL 3 5 1.2E8
+C1 2 5 28E-12
+C2 3 2 3E-12 
+D1 5 3 N3306D
+*
+.MODEL N3306M NMOS VTO=1.824 RS=1.572 RD=1.436 IS=1E-15 KP=.1233
++CBD=35E-12 PB=1
+.MODEL N3306D D IS=5E-12 RS=.768
+.ENDS BS170
+*
+*$
+*
+*                          (C)  1991 ZETEX PLC
+*
+*   The copyright in this model  and  the design embodied belong to
+*   Zetex PLC ("Zetex"). It is supplied free of charge by Zetex for
+*   the purpose  of research  and design  and may be used or copied
+*   intact (including this notice) for that purpose only. All other
+*   rights  are  reserved.  The model  is believed  accurate but no
+*   condition or warranty as to its  merchantability or fitness for
+*   purpose  is  given  and  no liability  in respect of any use is
+*   accepted by Zetex PLC, its distributors or agent.
+*
+*
+*   Zetex PLC, Fields New Road, Chadderton, Oldham  OL9 8NP

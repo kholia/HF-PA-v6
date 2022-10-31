@@ -1,0 +1,6 @@
+Future Ideas:
+
+- Add hex-inverter (SN74ACT04N) to drive the BS170 better.
+- Redo the layout.
+- IRF510 - place in the middle of the board. Cutout for IRF510.
+- Heatsink goes underneath the PCB.

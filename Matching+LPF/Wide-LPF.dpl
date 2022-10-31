@@ -1,0 +1,29 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=0,-195,800,620,2.35795,466,246>
+  <Grid=10,10,0>
+  <DataSet=Wide-LPF.dat>
+  <DataDisplay=Wide-LPF.sch>
+  <OpenDisplay=1>
+  <Script=Wide-LPF.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 240 170 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"dBS21" #0000ff 0 3 0 0 0>
+	<"dBS11" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
